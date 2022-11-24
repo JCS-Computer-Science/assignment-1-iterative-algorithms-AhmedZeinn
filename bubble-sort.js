@@ -1,11 +1,11 @@
 function bubbleSort(array) {
-let ok = array.length
-    for (let i = 0; i < ok; i++) {
-        for (let j = 0; j < ok; j++) {
+let bubble = array.length
+    for (let i = 0; i < bubble; i++) {
+        for (let j = 0; j < bubble; j++) {
             if (array[j] > array[j + 1]) {
-                let what = array[j]
+                let c = array[j]
                 array[j] = array[j + 1]
-                array[j + 1] = what
+                array[j + 1] = c
         }
     }
 }
